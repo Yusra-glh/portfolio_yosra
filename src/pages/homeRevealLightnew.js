@@ -60,9 +60,9 @@ function home() {
         </section>
 
         {/* Gallery */}
-        <section id="blog" className="pb-0">
+        {/* <section id="blog" className="pb-0">
           <Blog />
-        </section>
+        </section> */}
 
         {/* contact */}
         <section id="contact" className="py-0">

@@ -50,7 +50,7 @@ const contact = () => {
                                 data-aos-duration="1000"
                                 data-aos-easing="ease"
                             >
-                            <div className="contact_form_wrapper">
+                            {/* <div className="contact_form_wrapper">
                                 <form name="contactForm" id="contact_form" className="form-border" onSubmit={sendEmail}>
                                     <div className="row">
                                         <div className="col-md-4">
@@ -83,7 +83,7 @@ const contact = () => {
 
                                     </div>
                                 </form>
-                            </div>
+                            </div> */}
                             <div className="spacer-double"></div>
                             <div className="row text-center">
                                 <div className="col-md-4"
