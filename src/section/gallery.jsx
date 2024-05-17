@@ -62,7 +62,7 @@ const Gallery = function () {
       <Masonry className={"row my-gallery-class"} elementType={"div"}>
         <div
           className="col-lg-4 image-element-class de_modal de_modal"
-          onClick={handleBtnClick}
+          //onClick={handleBtnClick}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -80,7 +80,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick1}
+         // onClick={handleBtnClick1}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -98,7 +98,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+         // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -116,7 +116,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick}
+         // onClick={handleBtnClick}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -134,7 +134,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick1}
+         // onClick={handleBtnClick1}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -152,7 +152,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+        //  onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -170,7 +170,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+         // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -188,7 +188,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+          //onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -206,7 +206,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+         // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -224,7 +224,7 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-          onClick={handleBtnClick2}
+         // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -248,7 +248,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-              onClick={handleBtnClickclose}
+             // onClick={handleBtnClickclose}
             ></button>
           </div>
           <div className="v-center w-100">
@@ -321,7 +321,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-              onClick={handleBtnClickclose1}
+             // onClick={handleBtnClickclose1}
             ></button>
           </div>
           <div className="v-center w-100">
@@ -433,7 +433,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-              onClick={handleBtnClickclose2}
+             // onClick={handleBtnClickclose2}
             ></button>
           </div>
           <div className="v-center w-100">
