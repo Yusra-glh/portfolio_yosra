@@ -14,6 +14,15 @@ import Homereveal from "../src/pages/homeReveal";
 import Homereveallight from "../src/pages/homeRevealLight";
 import Homerevealdarknew from "../src/pages/homeRevealDarknew";
 import Homereveallightnew from "../src/pages/homeRevealLightnew";
+import PhotolinkDetails from "./pages/photolinkDetails";
+import CarForHerDetails from "./pages/carForHerDetails";
+import BookAndBoatDetails from "./pages/bookandboatDetails";
+import BeemDriverDetails from "./pages/beemDriverDetails";
+import BeemTaxiDetails from "./pages/beemTaxiDetails";
+import RavenDetails from "./pages/ravenDetails";
+import RestDetails from "./pages/restDetails";
+import IramaDetails from "./pages/iramaDetails";
+import BagzeeDetails from "./pages/bagzeeDetails";
 
 function App() {
   return (
@@ -33,6 +42,15 @@ function App() {
           <Route path="/homereveal" element={<Homereveal />} />
           <Route path="/homereveallight" element={<Homereveallight />} />
           <Route path="/homerevealdarknew" element={<Homerevealdarknew />} /> */}
+          <Route path="/photolink" element={<PhotolinkDetails />} />
+          <Route path="/bookandboat" element={<BookAndBoatDetails />} />
+          <Route path="/beemtaxi" element={<BeemTaxiDetails />} />
+          <Route path="/beemdriver" element={<BeemDriverDetails />} />
+          <Route path="/raven" element={<RavenDetails />} />
+          <Route path="/rest4u" element={<RestDetails />} />
+          <Route path="/irama" element={<IramaDetails />} />
+          <Route path="/bagzee" element={<BagzeeDetails />} />
+          <Route path="/carforher" element={<CarForHerDetails />} />
           <Route path="/" element={<Homereveallightnew />} />
         </Routes>
       </BrowserRouter>

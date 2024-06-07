@@ -2,6 +2,7 @@ import React from "react";
 import Masonry from "react-masonry-component";
 import { createGlobalStyle } from "styled-components";
 import AOS from "aos";
+import { Link, useNavigate } from "react-router-dom";
 AOS.init();
 
 const GlobalStyles = createGlobalStyle`
@@ -13,12 +14,19 @@ const GlobalStyles = createGlobalStyle`
 
 const Gallery = function () {
   /* lightbox1 */
+  const navigate = useNavigate();
   const [lighbx, setlighbx] = React.useState(false);
   const handleBtnClick = () => {
     setlighbx(!lighbx);
     var x = document.getElementsByTagName("BODY")[0];
     x.style.overflow = "hidden";
   };
+  const handleNavigate =(route)=>{
+    console.log('====================================');
+    console.log(route);
+    console.log('====================================');
+    navigate(route);
+  }
   const handleBtnClickclose = () => {
     setlighbx(!lighbx);
     var x = document.getElementsByTagName("BODY")[0];
@@ -60,12 +68,14 @@ const Gallery = function () {
         </div>
       </div>
       <Masonry className={"row my-gallery-class"} elementType={"div"}>
+       
         <div
           className="col-lg-4 image-element-class de_modal de_modal"
-          //onClick={handleBtnClick}
+          onClick={handleNavigate("/photolink")}
           data-aos="fade-up"
           data-aos-once="true"
         >
+           <Link to="/photolink">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Photolink</h3>
@@ -77,13 +87,16 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
+      
         <div
           className="col-lg-4 image-element-class de_modal"
          // onClick={handleBtnClick1}
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/carforher">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Car For Her</h3>
@@ -95,6 +108,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
@@ -102,6 +116,8 @@ const Gallery = function () {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          
+          <Link to="/bookandboat">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Book and Boat</h3>
@@ -113,6 +129,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
@@ -120,6 +137,7 @@ const Gallery = function () {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/raven">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Raven</h3>
@@ -131,6 +149,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
@@ -138,6 +157,7 @@ const Gallery = function () {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/beemtaxi">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Beem Smart Taxi</h3>
@@ -149,6 +169,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
@@ -174,6 +195,7 @@ const Gallery = function () {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/rest4u">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Rest for you</h3>
@@ -185,6 +207,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
@@ -192,6 +215,7 @@ const Gallery = function () {
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/beemdriver">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Beeem smart driver</h3>
@@ -203,13 +227,16 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
+        
         <div
           className="col-lg-4 image-element-class de_modal"
          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/irama">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Irama</h3>
@@ -221,13 +248,16 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
+        
         <div
           className="col-lg-4 image-element-class de_modal"
          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
+          <Link to="/bagzee">
           <div className="card-image-1">
             <div className="d-text">
               <h3>Bagzee</h3>
@@ -239,6 +269,7 @@ const Gallery = function () {
               alt="gallery"
             />
           </div>
+          </Link>
         </div>
       </Masonry>
 
