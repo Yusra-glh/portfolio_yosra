@@ -30,7 +30,7 @@ const hero = () => {
 	                        <div className="d-info">
 	                          <span>React Native</span>
 	                        </div>
-	                        <Skillbar bgColor={"#CB7C6F"} progress={70} />
+	                        <Skillbar bgColor={"#CB7C6F"} progress={90} />
 	                    </div>
 
 	                    <div className="d-skill">
@@ -51,7 +51,7 @@ const hero = () => {
 	                        <div className="d-info">
 	                          <span>Agile</span>
 	                        </div>
-	                        <Skillbar bgColor={"#CB7C6F"} progress={90} />
+	                        <Skillbar bgColor={"#CB7C6F"} progress={85} />
 	                    </div>
 
 	                    </div>
