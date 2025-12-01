@@ -119,10 +119,17 @@ const BagzeeDetails = () => {
                       https://apps.apple.com/fr/app/bagzee/id6476136202
                     </a>
                   </li>
+                   <li>
+                    <strong>Web URL</strong>:{" "}
+                    <a href="https://bagzee.fr/">
+                      https://bagzee.fr/
+                    </a>
+                  </li>
+                  
                 </ul>
               </div>
               <div class="portfolio-description" style={{ color: "black" }}>
-                <h2>Mobile app for luggage delivery</h2>
+                <h2>App for luggage delivery</h2>
                 <p>
                   This platform offers a collaborative and eco-friendly luggage
                   delivery solution, allowing individuals and professionals to

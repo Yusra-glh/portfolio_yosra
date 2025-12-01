@@ -51,6 +51,41 @@ const BookAndBoatDetails = () => {
                   className="swiper-wrapper align-items-center"
                   style={{ paddingBottom: "50px" }}
                 >
+                   <SwiperSlide className="swiper-slide">
+                    <img
+                      src="./img/portfolio/book and boat/web1.png"
+                      alt=""
+                      className="swiper-slide-image"
+                    />
+                  </SwiperSlide>
+                   <SwiperSlide className="swiper-slide">
+                    <img
+                      src="./img/portfolio/book and boat/web2.png"
+                      alt=""
+                      className="swiper-slide-image"
+                    />
+                  </SwiperSlide>
+                   <SwiperSlide className="swiper-slide">
+                    <img
+                      src="./img/portfolio/book and boat/web3.png"
+                      alt=""
+                      className="swiper-slide-image"
+                    />
+                  </SwiperSlide>
+                   <SwiperSlide className="swiper-slide">
+                    <img
+                      src="./img/portfolio/book and boat/web4.png"
+                      alt=""
+                      className="swiper-slide-image"
+                    />
+                  </SwiperSlide>
+                   <SwiperSlide className="swiper-slide">
+                    <img
+                      src="./img/portfolio/book and boat/web5.png"
+                      alt=""
+                      className="swiper-slide-image"
+                    />
+                  </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
                       src="./img/portfolio/book and boat/book and boat home.png"
@@ -129,15 +164,24 @@ const BookAndBoatDetails = () => {
                     <strong>Project duration</strong> Apr 2022 - Jul 2022Apr
                   </li>
                   <li>
-                    <strong>Project URL</strong>:{" "}
+                    <strong>Mobile URL</strong>:{" "}
                     <a href="https://appadvice.com/app/bookandboat/1631227078">
                       https://appadvice.com/app/bookandboat/1631227078
                     </a>
+                    
+                    
+                  </li>
+                  <li>
+                    <strong>Web URL</strong>:{" "}
+                    <a href="https://tuniboat.com/">
+                    https://tuniboat.com/
+                    </a>
+                    
                   </li>
                 </ul>
               </div>
               <div class="portfolio-description" style={{ color: "black" }}>
-                <h2>Mobile app for boat rental</h2>
+                <h2>Web and Mobile app for boat rental</h2>
                 <p>
                   This app serves as a platform for renting boats . The user in
                   this app can make a reservation, pay for a reservation, manage

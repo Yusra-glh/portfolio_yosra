@@ -12,7 +12,7 @@ import "./photolink.css";
 
 SwiperCore.use([Pagination, Navigation]);
 
-const RavenDetails = () => {
+const CmsDetails = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
@@ -51,93 +51,58 @@ const RavenDetails = () => {
                   className="swiper-wrapper align-items-center"
                   style={{ paddingBottom: "50px" }}
                 >
-                    <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/web1.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/web2.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/web3.png"
+                      src="./img/portfolio/cms/web1.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven home.png"
+                      src="/img/portfolio/cms/web2.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven shipment request.png"
+                      src="/img/portfolio/cms/web3.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven shipment step 2.png"
+                      src="/img/portfolio/cms/web4.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                     src="./img/portfolio/raven/raven shipment step 3.png"
+                      src="/img/portfolio/cms/web5.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven upcoming shipments.png"
+                      src="/img/portfolio/cms/web6.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven user profile.png"
+                      src="/img/portfolio/cms/web7.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
+                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven driver home.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver history.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver map.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver order details.png"
+                      src="/img/portfolio/cms/web8.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
@@ -151,32 +116,27 @@ const RavenDetails = () => {
                 <h3>Project information</h3>
                 <ul>
                   <li>
-                    <strong>Client</strong> Raven Company
+                    <strong>Client</strong> YZY Digital (Solution interne)
                   </li>
                   <li>
-                    <strong>Project duration</strong> Jul 2022 - Sep 2022
+                    <strong>Project duration</strong> Jul 2025 - Dec 2025
                   </li>
-                  <li>
-                    <strong>Mobile URL</strong>:{" "}
-                    <a href="https://play.google.com/store/apps/details?id=com.camelsoft.raven&hl=en_US">
-                    https://play.google.com/store/apps/details?id=com.camelsoft.raven&hl=en_US
-                    </a>
-                    
-                    
-                  </li>
-                  <li>
+                
+                   <li>
                     <strong>Web URL</strong>:{" "}
-                    <a href="https://www.ravenapp.ae/">
-                    https://www.ravenapp.ae/
+                    <a href="https://cms.yzy.dev/auth/signin">
+                      https://cms.yzy.dev/
                     </a>
                   </li>
+                  
                 </ul>
               </div>
               <div class="portfolio-description" style={{ color: "black" }}>
-              <h2>Web and Mobile app for parcel delivery</h2>
-              <p>
-                App for parcel delivery. Using this app, the user can easily choose a delivery company to deliver his parcels to any destination and manage his shipments. It also serves as a dashboard for drivers as they can manage their delivery requests easily. </p>
-             </div>
+                <h2>CMS Web App</h2>
+                <p>
+                 A powerful, modular CMS web application designed to let users create complete websites with ease. The platform includes a flexible Collections module for adding and managing structured data, alongside an intuitive drag-and-drop page builder for creating custom layouts. Users can also generate dynamic pages that automatically display data from their collections using configurable queries. The system handles full user management, provides real-time website previews, and supports seamless publishing workflows, enabling anyone to build and launch professional, data-driven websites without technical complexity.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -184,4 +144,4 @@ const RavenDetails = () => {
     </main>
   );
 };
-export default RavenDetails;
+export default CmsDetails;

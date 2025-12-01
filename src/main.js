@@ -23,6 +23,8 @@ import RavenDetails from "./pages/ravenDetails";
 import RestDetails from "./pages/restDetails";
 import IramaDetails from "./pages/iramaDetails";
 import BagzeeDetails from "./pages/bagzeeDetails";
+import GcsDetails from "./pages/gcsDetails";
+import CmsDetails from "./pages/cmsDetails";
 
 function App() {
   return (
@@ -48,9 +50,10 @@ function App() {
           <Route path="/beemdriver" element={<BeemDriverDetails />} />
           <Route path="/raven" element={<RavenDetails />} />
           <Route path="/rest4u" element={<RestDetails />} />
-          <Route path="/irama" element={<IramaDetails />} />
+          <Route path="/gcs" element={<GcsDetails />} />
           <Route path="/bagzee" element={<BagzeeDetails />} />
           <Route path="/carforher" element={<CarForHerDetails />} />
+          <Route path="/cms" element={<CmsDetails />} />
           <Route path="/" element={<Homereveallightnew />} />
         </Routes>
       </BrowserRouter>

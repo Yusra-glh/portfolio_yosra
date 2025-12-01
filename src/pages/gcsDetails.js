@@ -12,7 +12,7 @@ import "./photolink.css";
 
 SwiperCore.use([Pagination, Navigation]);
 
-const RavenDetails = () => {
+const GcsDetails = () => {
   const navigate = useNavigate();
 
   const handleBackClick = () => {
@@ -51,93 +51,44 @@ const RavenDetails = () => {
                   className="swiper-wrapper align-items-center"
                   style={{ paddingBottom: "50px" }}
                 >
-                    <SwiperSlide className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/web1.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/web2.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/web3.png"
+                      src="./img/portfolio/gcs/web.png"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven home.png"
+                      src="/img/portfolio/gcs/web1.png"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven shipment request.png"
+                      src="/img/portfolio/gcs/web2.png"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven shipment step 2.png"
+                      src="/img/portfolio/gcs/web4.png"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                     src="./img/portfolio/raven/raven shipment step 3.png"
+                      src="/img/portfolio/gcs/web5.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <img
-                      src="./img/portfolio/raven/raven upcoming shipments.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven user profile.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver home.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver history.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver map.png"
-                      alt=""
-                      className="swiper-slide-image"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <img
-                      src="./img/portfolio/raven/raven driver order details.png"
+                      src="/img/portfolio/gcs/web6.jpeg"
                       alt=""
                       className="swiper-slide-image"
                     />
@@ -151,32 +102,27 @@ const RavenDetails = () => {
                 <h3>Project information</h3>
                 <ul>
                   <li>
-                    <strong>Client</strong> Raven Company
+                    <strong>Client</strong> Global Concept Services
                   </li>
                   <li>
-                    <strong>Project duration</strong> Jul 2022 - Sep 2022
+                    <strong>Project duration</strong> Sep 2024 - Jul 2025
                   </li>
-                  <li>
-                    <strong>Mobile URL</strong>:{" "}
-                    <a href="https://play.google.com/store/apps/details?id=com.camelsoft.raven&hl=en_US">
-                    https://play.google.com/store/apps/details?id=com.camelsoft.raven&hl=en_US
-                    </a>
-                    
-                    
-                  </li>
-                  <li>
+                
+                   <li>
                     <strong>Web URL</strong>:{" "}
-                    <a href="https://www.ravenapp.ae/">
-                    https://www.ravenapp.ae/
+                    <a href="https://www.gc-services.fr/fr">
+                      https://www.gc-services.fr/fr
                     </a>
                   </li>
+                  
                 </ul>
               </div>
               <div class="portfolio-description" style={{ color: "black" }}>
-              <h2>Web and Mobile app for parcel delivery</h2>
-              <p>
-                App for parcel delivery. Using this app, the user can easily choose a delivery company to deliver his parcels to any destination and manage his shipments. It also serves as a dashboard for drivers as they can manage their delivery requests easily. </p>
-             </div>
+                <h2>E-commerce Web App</h2>
+                <p>
+                 A modern, scalable e-commerce web application for Global Concept Services, integrating key modules such as user management, dynamic cart and checkout, My Orders, and real-time delivery tracking to streamline telecom equipment procurement. The platform features seamless Odoo ERP communication, enabling automated syncing of orders, inventory, and customer data, as well as Strapi CMS integration for flexible content management. A secure MongoDB backup system ensures data reliability and business continuity. This solution enhances both pre-sales and post-sales workflows, providing Global Concept Services with a robust digital platform that supports their 20+ years of expertise in business communication services.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -184,4 +130,4 @@ const RavenDetails = () => {
     </main>
   );
 };
-export default RavenDetails;
+export default GcsDetails;

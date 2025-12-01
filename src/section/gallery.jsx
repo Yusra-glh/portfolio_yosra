@@ -21,7 +21,7 @@ const Gallery = function () {
     var x = document.getElementsByTagName("BODY")[0];
     x.style.overflow = "hidden";
   };
-  const handleNavigate =(route)=>{
+  const handleNavigate = (route) => {
     console.log('====================================');
     console.log(route);
     console.log('====================================');
@@ -68,112 +68,112 @@ const Gallery = function () {
         </div>
       </div>
       <Masonry className={"row my-gallery-class"} elementType={"div"}>
-       
+
         <div
           className="col-lg-4 image-element-class de_modal de_modal"
           onClick={handleNavigate("/photolink")}
           data-aos="fade-up"
           data-aos-once="true"
         >
-           <Link to="/photolink">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Photolink</h3>
-              <h5 className="d-tag">Social media for photographers</h5>
+          <Link to="/photolink">
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Photolink</h3>
+                <h5 className="d-tag">Social media for photographers</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/photolink/logo.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/photolink/logo.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
-      
+
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick1}
+          // onClick={handleBtnClick1}
           data-aos="fade-up"
           data-aos-once="true"
         >
           <Link to="/carforher">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Car For Her</h3>
-              <h5 className="d-tag">Car rental App</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Car For Her</h3>
+                <h5 className="d-tag">Car rental App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/car for her/logo.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/car for her/logo.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick2}
+          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
-          
+
           <Link to="/bookandboat">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Book and Boat</h3>
-              <h5 className="d-tag">Boat Rental App</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Book and Boat</h3>
+                <h5 className="d-tag">Boat Rental App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/book and boat/logo.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/book and boat/logo.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick}
+          // onClick={handleBtnClick}
           data-aos="fade-up"
           data-aos-once="true"
         >
           <Link to="/raven">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Raven</h3>
-              <h5 className="d-tag">Parcel delivery App</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Raven</h3>
+                <h5 className="d-tag">Parcel delivery App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/raven/icon.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/raven/icon.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick1}
+          // onClick={handleBtnClick1}
           data-aos="fade-up"
           data-aos-once="true"
         >
           <Link to="/beemtaxi">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Beem Smart Taxi</h3>
-              <h5 className="d-tag">Transportation app</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Beem Smart Taxi</h3>
+                <h5 className="d-tag">Transportation app</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/beem smart taxi/icon.jpg"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/beem smart taxi/icon.jpg"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-        //  onClick={handleBtnClick2}
+          //  onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
@@ -191,22 +191,22 @@ const Gallery = function () {
         </div>
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick2}
+          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
           <Link to="/rest4u">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Rest for you</h3>
-              <h5 className="d-tag">HR management App</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Rest for you</h3>
+                <h5 className="d-tag">HR management App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/rest4u/logo.svg"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/rest4u/logo.svg"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
         <div
@@ -216,59 +216,79 @@ const Gallery = function () {
           data-aos-once="true"
         >
           <Link to="/beemdriver">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Beeem smart driver</h3>
-              <h5 className="d-tag">App for taxi drivers</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Beeem smart driver</h3>
+                <h5 className="d-tag">App for taxi drivers</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/beem smart driver/icon.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/beem smart driver/icon.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
-        
+
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick2}
+          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
-          <Link to="/irama">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Irama</h3>
-              <h5 className="d-tag">Stock management App</h5>
+          <Link to="/gcs">
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Global Concept Services</h3>
+                <h5 className="d-tag">E-commerce App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/gcs/logo.jpg"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/irama/logo.png"
-              alt="gallery"
-            />
-          </div>
           </Link>
         </div>
-        
+
         <div
           className="col-lg-4 image-element-class de_modal"
-         // onClick={handleBtnClick2}
+          // onClick={handleBtnClick2}
           data-aos="fade-up"
           data-aos-once="true"
         >
           <Link to="/bagzee">
-          <div className="card-image-1">
-            <div className="d-text">
-              <h3>Bagzee</h3>
-              <h5 className="d-tag">Packages delivery App</h5>
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Bagzee</h3>
+                <h5 className="d-tag">Packages delivery App</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/bagzee/bagzee.png"
+                alt="gallery"
+              />
             </div>
-            <img
-              style={{ height: 220, objectFit: "contain" }}
-              src="./img/portfolio/bagzee/bagzee.png"
-              alt="gallery"
-            />
-          </div>
+          </Link>
+        </div>
+        <div
+          className="col-lg-4 image-element-class de_modal"
+          // onClick={handleBtnClick2}
+          data-aos="fade-up"
+          data-aos-once="true"
+        >
+          <Link to="/cms">
+            <div className="card-image-1">
+              <div className="d-text">
+                <h3>Yzy WebFactory</h3>
+                <h5 className="d-tag">CMS Platform</h5>
+              </div>
+              <img
+                style={{ height: 220, objectFit: "contain" }}
+                src="./img/portfolio/cms/logo.svg"
+                alt="gallery"
+              />
+            </div>
           </Link>
         </div>
       </Masonry>
@@ -279,7 +299,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-             // onClick={handleBtnClickclose}
+            // onClick={handleBtnClickclose}
             ></button>
           </div>
           <div className="v-center w-100">
@@ -352,7 +372,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-             // onClick={handleBtnClickclose1}
+            // onClick={handleBtnClickclose1}
             ></button>
           </div>
           <div className="v-center w-100">
@@ -464,7 +484,7 @@ const Gallery = function () {
           <div className="closeGal">
             <button
               className="button-close"
-             // onClick={handleBtnClickclose2}
+            // onClick={handleBtnClickclose2}
             ></button>
           </div>
           <div className="v-center w-100">
